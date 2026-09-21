@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Profile Cá Nhân</string>
+
+    <!-- Sửa thông tin của bạn ở đây -->
+    <string name="ho_ten">Nguyễn Hải Ninh</string>
+    <string name="lop">Kỹ thuật Phần mềm - Đại học Thủy Lợi</string>
+    <string name="tieu_su">Fullstack Developer · Khóa 2023 - 2027\n\nMình thích xây dựng sản phẩm hoàn chỉnh, từ backend, frontend đến triển khai bằng Docker. Mình đã làm các dự án thực tế: hệ thống quản lý quy trình và KPI, hệ thống quản lý hồ sơ đấu thầu, và nền tảng tự động vẽ tuyến cáp viễn thông trên AutoCAD có ứng dụng AI.\n\nKỹ năng: Java, PHP, Python, C#, JavaScript · Laravel, Spring, React · MySQL, MariaDB · Git, Docker\nNgoại ngữ: Tiếng Anh B1\nEmail: haininh320@gmail.com</string>
+
+    <string name="btn_facebook">Facebook</string>
+    <string name="btn_youtube">YouTube</string>
+    <string name="btn_github">GitHub</string>
+</resources>
