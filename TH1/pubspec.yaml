@@ -1,0 +1,35 @@
+name: quan_ly_tai_lieu
+description: "TH1 - Ứng dụng quản lý tài liệu học tập theo kiến trúc Cashew"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Tầng database: drift (SQLite) — cùng thư viện mà Cashew dùng
+  drift: ^2.35.1
+  path_provider: ^2.1.6
+  path: ^1.9.1
+  # Tầng struct: cài đặt lưu bằng SharedPreferences (giống Cashew)
+  shared_preferences: ^2.5.5
+  # Provider chỉ dùng để phát luồng dữ liệu dùng chung (giống watchAllWallets.dart của Cashew)
+  provider: ^6.1.5+1
+  uuid: ^4.6.0
+  intl: ^0.20.3
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Sinh mã tables.g.dart: dart run build_runner build
+  drift_dev: ^2.35.1
+  build_runner: ^2.16.1
+
+flutter:
+  uses-material-design: true

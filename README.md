@@ -10,6 +10,7 @@ Bài tập môn Lập trình di động — Đại học Thủy Lợi.
 | `bai3/` | Flutter | Bài 3 — Hồ sơ cá nhân |
 | `bai3Vibe/portfolio_app/` | Flutter | Bài 3 (bản mở rộng) — Portfolio app nhiều màn hình |
 | `bai4/` | Android (Java/Gradle) | Bài 4 — Profile App |
+| `TH1/` | Flutter (drift/SQLite) | TH1 — Quản lý tài liệu học tập theo kiến trúc Cashew ([báo cáo](TH1/BAO_CAO.md)) |
 
 ## Chạy lại trên máy khác
 
@@ -18,12 +19,12 @@ git clone https://github.com/HaiNinh1/FlutterTLU.git
 cd FlutterTLU
 ```
 
-### Project Flutter (`bai2`, `bai3`, `bai3Vibe/portfolio_app`)
+### Project Flutter (`bai2`, `bai3`, `bai3Vibe/portfolio_app`, `TH1`)
 
 Cần cài sẵn [Flutter SDK](https://docs.flutter.dev/get-started/install).
 
 ```bash
-cd bai2            # hoac bai3, bai3Vibe/portfolio_app
+cd bai2            # hoac bai3, bai3Vibe/portfolio_app, TH1
 flutter pub get    # tai lai package (thu muc build/ va .dart_tool/ khong duoc push)
 flutter run        # chon thiet bi: Chrome, Windows, Android emulator...
 ```

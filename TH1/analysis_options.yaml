@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - windows/**
+    - lib/**/*.g.dart
+
+linter:
+  rules:
+    # Giữ quy ước đặt tên của Cashew: tên file camelCase (addDocumentPage.dart,
+    # databaseGlobal.dart...) và hằng số viết hoa (NAME_LIMIT) để dễ đối chiếu.
+    file_names: false
+    constant_identifier_names: false
