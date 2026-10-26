@@ -11,6 +11,7 @@ Bài tập môn Lập trình di động — Đại học Thủy Lợi.
 | `bai3Vibe/portfolio_app/` | Flutter | Bài 3 (bản mở rộng) — Portfolio app nhiều màn hình |
 | `bai4/` | Android (Java/Gradle) | Bài 4 — Profile App |
 | `TH1/` | Flutter (drift/SQLite) | TH1 — Quản lý tài liệu học tập theo kiến trúc Cashew ([báo cáo](TH1/BAO_CAO.md)) |
+| `DailyU/src/` | Flutter (sqflite/SQLite) | Build và Việt hóa ứng dụng nhật ký Daily You ([báo cáo](DailyU/BAO_CAO.md)) |
 
 ## Chạy lại trên máy khác
 
